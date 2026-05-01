@@ -6,9 +6,11 @@ body {
 	background-color: #FFFFFF;
 	font: 12pt Georgia, "Times New Roman", Times, serif;
 }
+
 p{
     padding:.5em;
 }
+
 h1, h2, h3{
     padding-bottom:.5em;
 }
@@ -19,7 +21,9 @@ h1, h2, h3{
     align-items: center;
     border-bottom: 2px solid #000;
     padding-bottom: 10px;
+}
 /* Navigation Formatting */
+
 .nav {
     text-align: center;
     margin: 10px 0;
@@ -35,6 +39,7 @@ h1, h2, h3{
 .nav a:hover {
     text-decoration: underline;
 }
+
 /* Main Section Formatting */
 .content h2 {
     font-size: 18px;
@@ -53,6 +58,7 @@ h1, h2, h3{
     margin-bottom: 5px;
     font-size: 14px;
 }
+
 /* Footer Formatting */
 .footer {
     border-top: 2px solid #000;
