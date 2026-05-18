@@ -6,17 +6,64 @@ body {
 	background-color: #FFFFFF;
 	font: 12pt Georgia, "Times New Roman", Times, serif;
 }
+
 p{
     padding:.5em;
 }
+
 h1, h2, h3{
     padding-bottom:.5em;
 }
 
 /* Header Formatting */
-
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
 /* Navigation Formatting */
 
+.nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.nav a {
+    color: #006666;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
 /* Main Section Formatting */
+.content h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.content p {
+    font-size: 14px;
+}
+
+.content ul {
+    margin-top: 10px;
+}
+
+.content li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
 
 /* Footer Formatting */
+.footer {
+    border-top: 2px solid #000;
+    margin-top: 15px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 12px;
+}
